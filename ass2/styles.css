@@ -1,0 +1,36 @@
+.slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+}
+
+.slide {
+    width: 100%;
+    transition: transform 0.5 ease-in-out;
+    object-fit: cover;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.button {
+    margin: 0 20px;
+    padding: 5px 5px;
+    cursor: pointer;
+    background-color: aquamarine;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}

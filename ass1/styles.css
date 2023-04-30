@@ -1,0 +1,20 @@
+img {
+    width: 200px;
+    height: auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    width: 80%;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
